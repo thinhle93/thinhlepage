@@ -73,7 +73,7 @@ section
 section.sec1{
 
 	background: url(./images/coding.jpg);
-	
+	width: 100%;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -84,8 +84,6 @@ section.sec1{
 	left: 20%;
 	font-size: 40px;
 	color: white;
-	
-
 }
 
 
