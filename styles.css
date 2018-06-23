@@ -80,7 +80,7 @@ section.sec1{
 
 .intro{
 	position: absolute;
-	bottom: 25%;
+	top: 60%;
 	left: 20%;
 	font-size: 40px;
 	color: white;
@@ -89,7 +89,7 @@ section.sec1{
 
 figure{
 	position: absolute;
-	bottom: 300px;
+	top: 20%;
 	left: 39%;
 	overflow: hidden;
 	margin: 0;
