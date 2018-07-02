@@ -26,7 +26,6 @@ body{
 .navbar ul{
 	margin: 0;
 	padding: 0;
-	/*display: flex;*/
 	flex-direction: column;
 	float: right;
 	background: rgba(0,0,0,.5);
@@ -42,7 +41,6 @@ body{
 
 .navbar ul li a
 {
-
 	display: block;
 	padding: 0 30px;
 	color: #fff;
@@ -122,13 +120,13 @@ figure img{
 }
 .contact-content p i:nth-child(1){
 	font-size: 30px;
-	background: black;
+	
 	color: white;
 	transition: .5s;
 }
 .contact-content p:hover i:nth-child(1){
-	background: yellow;
-	color: black;
+	
+	color: red;
 	transform: rotateY(360deg);
 }
 .contact-content p{
@@ -143,6 +141,7 @@ figure img{
 .Head{
 	text-align: center;
 	font-size: 25px;
+	text-transform: uppercase;
 	
 }
 section.sec6{
@@ -157,11 +156,18 @@ section.sec6{
 .last{
 	position: relative;
 	font-size: 30px;
-	color: white;
+	
+	color: black;
 	bottom: 100px;
 	top: 50%;
 	left: 40%;
+	transition: 1s;
 
 }
 
 
+
+h3{
+	border-bottom: 2px solid red;
+	width: fit-content;
+}
