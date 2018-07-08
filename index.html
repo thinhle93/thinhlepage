@@ -5,6 +5,8 @@
 	<link rel="stylesheet"  href="styles.css">
 	<link rel="stylesheet" type="text/css" href="aos.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	
 </head>
 <body>
 
@@ -31,7 +33,7 @@
 	
 	<div id="about" class="info">
 		<p class="Head">About</p>
-		<p data-aos="zoom-out" class="body-info">Hello my name is Thinh Le and I am a full stack developer with experience in the Python, Mean, and Ruby on Rails stack. I love to do Do-It-Yourself projects and create tools for my everyday life which is why I am strongly passionate about programming. Programming gives me an infinite amount of possibilities of what I can create and I plan to utilize my knowledge and skills to help advance the technology industry.</p>
+		<p data-aos="zoom-out" class="body-info">Hello my name is Thinh Le and I am a full stack developer with experience in the Python, MEAN (MongoDB, Express, Angular, Node), and Ruby on Rails stack. I love to do Do-It-Yourself projects and create tools for my everyday life which is why I am strongly passionate about programming. Programming allows me to create even more projects, especially those involving automation, as well as using my cognitive skills to find solutions for a particular project. I hope to utilize my knowledge and skills to contribute to the advancement of the technology industry.</p>
 	</div>
 	
 	
@@ -48,15 +50,46 @@
 			<p>Technologies Used: MongoDB, Express, AngularJS, NodeJS, Soket.io</p>
 			<p>Members: Thinh Le, In Soo Yang</p>
 			<p>Using the MEAN stack with Socket.io, I worked on a team of 2 to create a Black Jack game for muliplayer across browsers.</p>
+			<button class="button" id="mybtn">Watch Black Jack Demo</button>
 			<h3>SharePics</h3>
 			<p>Technologies Used: Ruby on Rails, paperclip GEM, ActiveRecord with sqlite and postgresql</p>
 			<p>Members: Thinh Le</p>
-			<p>A project design to focus on the feature of being able to submit image files to the database. SharePics allows users to submit a picture with a description and other users can comment on it.</p>
+			<p>A project design to focus on the feature of being able to submit image files to the database. SharePics allows users to submit a picture with a description and other users can comment on it.</p>	
+			<button class="button" id="sharepics_btn">Watch SharePics Demo</button>		
 		</div>
-		
 	</div>
 	
+	
 
+	<div class="modal" id="blackjack_modal">
+		<div class="modal-content">
+			<div class="modal-close">
+				<button class="btncl" id="btnclose">Close</button>
+			</div>
+			<div class="modal-header">
+				<p>BLACK JACK</p>
+			</div>
+			<video  class="vid" id="video" width="1152" height="648" controls>
+				<source  src="images/blackjack_demo.mp4" type="video/mp4">
+				Your browser does not support the video tag. 
+			</video>
+		</div>
+	</div>
+
+	<div class="modal" id="sharepics_modal">
+		<div class="modal-content">
+			<div class="modal-close">
+				<button class="btncl" id="shareclose">Close</button>
+			</div>
+			<div class="modal-header">
+				<p>BLACK JACK</p>
+			</div>
+			<video class="vid" id="sharepic_video" width="1153" height="648" controls>
+				<source  src="images/sharepics_demo.mp4" type="video/mp4">
+				Your browser does not support the video tag. 
+			</video>
+		</div>
+	</div>
 
 	<div id="contacts" class="info">
 		<p class="Head">Contacts</p>
@@ -75,6 +108,8 @@
 	</section>
 
 	</div>
+
+
 	
 
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -85,6 +120,6 @@
 		});
 	</script>
 
-
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
