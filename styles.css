@@ -3,7 +3,7 @@
 
 }
 
-body{
+body,html{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
@@ -116,6 +116,15 @@ figure img{
 }
 .info a {
 	text-decoration: none;
+}
+.project_pic {
+	width: 100%;
+}
+.info-projects{
+	display: inline-block;
+	width: 45%;
+	margin-right: 4%;
+	vertical-align: top;
 }
 .contact-content span{
 	color: white;
@@ -233,5 +242,12 @@ h3{
 
 .btncl{
 	float: right;
+	margin-right: 5%;
 }
 
+@media (max-width: 1024px){
+	.info-projects{
+		display: block;
+		width: 100%;
+	}
+}
