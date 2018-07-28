@@ -210,6 +210,11 @@ h3{
 	color: white;
 	height: 1.5em;
 	cursor: pointer;
+	float: right;
+	margin-right: 2%;
+	display: inline-block;
+	width: fit-content;
+	
 }
 .btncl:hover{
 	background: #fd2928;
@@ -230,23 +235,25 @@ h3{
 }
 
 .modal-header{
+	vertical-align: middle;
+}
+.modal-header p{
 	font-size: 20px;
 	font-weight: bold;
+	display: inline-block;
+	width: fit-content;
 }
 
 .modal-content{
 	margin: 3% auto; 
 	width: fit-content;
-	padding: 25px;
+	padding: 15px;
 	background: rgb(160,160,160);
 	border-radius: 10px;
 	/*box-shadow: rgba(255,240,255,0.5);*/
 }
 
-.btncl{
-	float: right;
-	margin-right: 5%;
-}
+
 
 @media (max-width: 1024px){
 	.info-projects{
@@ -256,5 +263,15 @@ h3{
 	.intro{
 		left: 25%;
 	}
+	.btncl{
+		margin-right: 5%;
+		margin-top: 2%;
+	}
+	.modal-content{
+		padding: 0;
+	}
+	/*.modal-header{
+		padding: 10px;
+	}*/
 }
 
