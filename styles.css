@@ -271,7 +271,7 @@ h3{
 .skills-box ul{
 	list-style: none;
 	text-align: center;
-	margin-right: 23%;
+	margin-right: 13%;
 }
 
 @media (max-width: 1024px){
@@ -289,8 +289,9 @@ h3{
 	.modal-content{
 		padding: 0;
 	}
-	/*.modal-header{
-		padding: 10px;
-	}*/
+	.skills-box{
+		display: block;
+		width: 70%;
+	}
 }
 
