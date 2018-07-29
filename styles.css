@@ -253,7 +253,26 @@ h3{
 	/*box-shadow: rgba(255,240,255,0.5);*/
 }
 
+.skills-content{
+	margin: 0 auto;
+}
+.skills-box{
+	border: 2px solid #fd2928;
+	width: 27%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 3%;
+	margin-top: 2%;
+	min-height: 220px;
 
+}
+
+.skills-box ul{
+	list-style: none;
+	text-align: center;
+	margin-right: 23%;
+}
 
 @media (max-width: 1024px){
 	.info-projects{
