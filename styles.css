@@ -253,16 +253,16 @@ h3{
 	/*box-shadow: rgba(255,240,255,0.5);*/
 }
 
-.skills-content{
+/*.skills-content{
 	margin: 0 auto;
-}
+}*/
 .skills-box{
 	border: 2px solid #fd2928;
 	width: 27%;
 	text-align: center;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 3%;
+	margin-left: 4%;
 	margin-top: 2%;
 	min-height: 220px;
 
@@ -292,6 +292,7 @@ h3{
 	.skills-box{
 		display: block;
 		width: 70%;
+		margin-left: 15%;
 	}
 }
 
