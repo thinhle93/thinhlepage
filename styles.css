@@ -123,22 +123,33 @@ figure img{
 .project_pic {
 	width: 100%;
 }
+
 .info-projects{
 	display: inline-block;
 	width: 45%;
 	margin-right: 4%;
 	vertical-align: top;
 	height: 400px;
-	overflow: hidden;
+	
+	/*overflow: hidden;*/
+
 }
 .info-projects .project-content{
 	padding: 2%;
 	position: relative;
-	top: 70%;
+	/*top: 70%;*/
+	bottom: 75%;
+	transform-origin: bottom;
 	transition: 0.5s;
+	transform: perspective(500px) rotateX(90deg);
 }
 .info-projects:hover .project-content{
-	top: -70%;
+	/*top: -70%;*/
+	transform: perspective(500px) rotateX(0deg);
+}
+.info-projects img{
+	width: 100%;
+	transition: .5s;
 }
 .info-projects:hover img{
 	opacity: 0.1;
@@ -157,12 +168,12 @@ figure img{
 	color: #30c6fa;
 	transform: rotateY(360deg);
 }
-.contact-content p{
+/*.contact-content p{
 	transition: .5s;
 }
 .contact-content p:hover{
 	margin-left: 5%;
-}
+}*/
 .contact-content{
 	margin-left: 35%;
 }
@@ -200,6 +211,7 @@ h3{
 
 
 .button {
+
 	padding: 10px 16px;
 	color: #fff;
 	font-weight: bold;
@@ -292,13 +304,17 @@ h3{
 
 
 
-@media (max-width: 1024px){
+@media screen and (max-width: 1402px){
 	.info-projects{
+		margin: 0 auto;
 		display: block;
+		margin-bottom: 10%;
 		width: 100%;
+		width: 80%
 	}
 	.intro{
 		left: 25%;
+		top: 45%;
 	}
 	.btncl{
 		margin-right: 5%;
@@ -311,6 +327,13 @@ h3{
 		display: block;
 		width: 70%;
 		margin-left: 15%;
+	}
+	.info{
+		font-size: 15px;
+		padding: 25px 100px;
+	}
+	.sec1{
+		height: 60vh;
 	}
 }
 
