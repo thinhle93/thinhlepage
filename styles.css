@@ -11,7 +11,7 @@ body,html{
 }
 
 
-.navbar{
+/*.navbar{
 	margin-top: 10%;
 	position: fixed;
 	top: 0;
@@ -21,27 +21,27 @@ body,html{
 	padding: 0 0 0 100px;
 	box-sizing: border-box;
 	transition: .5s;
-}
+}*/
 
 
 
-.navbar ul{
+/*.navbar ul{
 	margin: 0;
 	padding: 0;
 	flex-direction: column;
 	float: right;
 	background: rgba(0,0,0,.5);
-}
+}*/
 
-.navbar ul li
+/*.navbar ul li
 {
 	list-style: none;
 	line-height: 80px;
 	text-align: center;
 
-}
+}*/
 
-.navbar ul li a
+/*.navbar ul li a
 {
 	display: block;
 	padding: 0 30px;
@@ -51,16 +51,16 @@ body,html{
 	font-weight: bold;
 	font-size: 16px;
 	transition: .5s;
-}
+}*/
 
 
-.navbar ul li a:hover
+/*.navbar ul li a:hover
 {
 	background: #30c6fa;
 	color: #fff; 
 	font-size: 20px;
 	padding: 0 18px;
-}
+}*/
 
 section
 {
@@ -208,6 +208,7 @@ h3{
 	border-bottom: 2px solid #30c6fa;
 	width: fit-content;
 }
+
 
 
 .button {
