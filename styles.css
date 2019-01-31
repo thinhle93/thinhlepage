@@ -10,6 +10,10 @@ body,html{
 	overflow-x: hidden;
 }
 
+/*overiding modal size so videos are larger*/
+.modal-lg{
+	max-width: 1100px;
+}
 
 /*.navbar{
 	margin-top: 10%;
@@ -125,20 +129,22 @@ figure img{
 }
 
 .info-projects{
-	display: inline-block;
+	/*needs this for some reason or the .project-content wont work*/
+	/*display: inline-block;
 	width: 45%;
 	margin-right: 4%;
 	vertical-align: top;
-	height: 400px;
-	
+	height: 400px;*/
+	/*border: 5px red;*/
 	/*overflow: hidden;*/
 
 }
 .info-projects .project-content{
 	padding: 2%;
-	position: relative;
+	position: absolute;
+	/*font-size: 0.8em;*/
 	/*top: 70%;*/
-	bottom: 75%;
+	bottom: 0;
 	transform-origin: bottom;
 	transition: 0.5s;
 	transform: perspective(500px) rotateX(90deg);
@@ -248,7 +254,8 @@ h3{
 	background: #fd2928;
 	color: black;
 }
-.modal{
+
+/*.modal{
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,0.5);
@@ -279,11 +286,11 @@ h3{
 	background: rgb(160,160,160);
 	border-radius: 10px;
 	/*box-shadow: rgba(255,240,255,0.5);*/
-}
-
-/*.skills-content{
-	margin: 0 auto;
 }*/
+
+.skills-content{
+	margin: 0 auto;
+}
 .skills-box{
 	border: 2px solid #30c6fa;
 	width: 27%;
@@ -300,6 +307,11 @@ h3{
 	list-style: none;
 	text-align: center;
 	margin-right: 13%;
+}
+
+.sm-wrds{
+	display: block;
+	
 }
 
 
@@ -321,9 +333,7 @@ h3{
 		margin-right: 5%;
 		margin-top: 2%;
 	}
-	.modal-content{
-		padding: 0;
-	}
+	
 	.skills-box{
 		display: block;
 		width: 70%;
