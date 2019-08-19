@@ -174,12 +174,7 @@ figure img{
 	color: #30c6fa;
 	transform: rotateY(360deg);
 }
-/*.contact-content p{
-	transition: .5s;
-}
-.contact-content p:hover{
-	margin-left: 5%;
-}*/
+
 .contact-content{
 	margin-left: 35%;
 }
